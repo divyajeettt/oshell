@@ -148,10 +148,10 @@ make
 
 ## Future Plans
 
-Implement the following interesting command-options (among others):
-
-- `ls -R`
-- `cd -`
+- Implement the following interesting command-options (among others):
+  - `ls -R`
+  - `cd -`
+- Fix the implementation of the `exit` command (default exit status should be the exit status of the last executed call)
 
 ## References
 
