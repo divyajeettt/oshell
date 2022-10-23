@@ -2,9 +2,9 @@
 
 ## About oshell
 
-oshell is an interactive [Shell](https://en.wikipedia.org/wiki/Shell_(computing)) created to mimic some functionalities of the Artix [Linux](https://en.wikipedia.org/wiki/Linux) Shell. It is a command-line based project developed as a Project Assignment for the course [<b>CSE231: *Operating Systems*</b>](http://techtree.iiitd.edu.in/viewDescription/filename?=CSE231).
+oshell is an interactive [Shell](https://en.wikipedia.org/wiki/Shell_(computing)) created to mimic some functionalities of the Artix [Linux](https://en.wikipedia.org/wiki/Linux) Shell. It is a command-line based project developed as a Project Assignment for the course **[CSE231: *Operating Systems*](http://techtree.iiitd.edu.in/viewDescription/filename?=CSE231)**.
 
-*<b>Note:</b> oshell can only run on Linux-based systems (developed on [Artix Linux](https://artixlinux.org/))*
+***Note:** oshell can only run on Linux-based systems (developed on [Artix Linux](https://artixlinux.org/))*
 
 ## Some Key Features
 
@@ -64,7 +64,7 @@ The `echo` command writes its arguments to standard output followed by a newline
 - `-n`: Does not append a trailing newline
 - `-e`: Enables interpretation of backslash-escapes
 
-*<b>Assumption:</b> The options given to the `echo` command (if any) will ONLY be given as the first argument. All subsequent options will be treated as text literals.*
+***Assumption:** The options given to the `echo` command (if any) will ONLY be given as the first argument. All subsequent options will be treated as text literals.*
 
 #### pwd
 
@@ -77,7 +77,7 @@ The `pwd` command simply displays the current working directory of the Shell. It
 
 The `type` command is used to check how a command is interpreted by the shell, i.e., whether a command is an internal or external command.
 
-*<b>Assumption:</b> Some external commands like `mkdir` and `rm` are displayed as 'hashed' to more accurately "mimic" the Linux Shell's behaviour. In reality, these files are simple executables located in the `./bin` directory.*
+***Assumption:** Some external commands like `mkdir` and `rm` are displayed as 'hashed' to more accurately "mimic" the Linux Shell's behaviour. In reality, these files are simple executables located in the `./bin` directory.*
 
 #### exit
 
@@ -94,7 +94,7 @@ The `ls` command displays a space-separated list of files and directories in the
 - `-a`: Lists down *all* files and directories, i.e., do not ignore entries starting with `.`
 - `-1`: Separate the list with newlines instead of spaces
 
-*<b>Assumption:</b> The output order of ls is not sorted by default.*
+***Assumption:** The output order of ls is not sorted by default.*
 
 #### cat
 
@@ -155,7 +155,7 @@ make
 
 ## References
 
-- [<b>CSE231</b> Lecture Slides: *Dr Sambuddho Chakravarty*](https://drive.google.com/file/d/15927VKp8q1xwLvs28I4lgDyLF0XGcrXk/view)
+- [**CSE231** Lecture Slides: *Dr Sambuddho Chakravarty*](https://drive.google.com/file/d/15927VKp8q1xwLvs28I4lgDyLF0XGcrXk/view)
 - [Manual Page: `fork()`](https://man7.org/linux/man-pages/man2/fork.2.html)
 - [Manual Page: `exec()`](https://man7.org/linux/man-pages/man3/exec.3.html)
 - [Manual Page: `wait()`](https://man7.org/linux/man-pages/man2/waitpid.2.html)
